@@ -1,0 +1,3 @@
+# CONTRIBUTING
+
+Content coming soon.
