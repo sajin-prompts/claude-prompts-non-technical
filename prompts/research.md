@@ -3,8 +3,8 @@
 These prompts help you use Claude to do research faster, understand complex 
 sources, and turn scattered information into clear thinking.
 
-No coding required. No technical setup. Just copy, paste, and replace the 
-parts in [brackets] with your own information.
+No coding required. Copy, paste, and replace the parts in [brackets] with 
+your own information.
 
 ---
 
@@ -21,17 +21,31 @@ to understand what they collectively say.
 
 **Copy this prompt:**
 ```
-I'm going to share [NUMBER] sources on the topic of [YOUR TOPIC]. 
-After I share them, please:
+You are an expert research analyst with deep experience synthesizing 
+academic and professional literature across multiple disciplines.
 
-1. Identify the 3-5 main arguments or findings that appear across sources
-2. Note where sources agree and where they contradict each other
-3. Identify what questions remain unanswered across all sources
-4. Give me a 3-sentence summary I could use to explain this topic to 
-   someone unfamiliar with it
+I am a [YOUR ROLE — e.g., "graduate student", "journalist", "policy 
+researcher"] working on [YOUR TOPIC]. I have [NUMBER] sources I need 
+to synthesize into a coherent understanding. My goal is to [WHAT YOU 
+NEED THIS FOR — e.g., "write a literature review", "brief my team", 
+"understand the current state of research"].
 
 Here are my sources:
 [PASTE YOUR SOURCES HERE]
+
+Please do the following:
+1. Identify the 3-5 main arguments or findings that appear across sources
+2. Note explicitly where sources agree and where they contradict each other
+3. Identify what questions remain unanswered across all sources
+4. Write a 3-sentence summary I could use to explain this topic to 
+   someone unfamiliar with it
+
+Rules:
+- Use plain language — avoid academic jargon unless you explain it
+- Be specific about which source supports which claim
+- If sources are insufficient to draw conclusions, say so clearly
+- Keep the synthesis objective — do not insert opinions not supported 
+  by the sources
 ```
 
 **Tips:**
@@ -53,14 +67,31 @@ need it explained before continuing your work.
 
 **Copy this prompt:**
 ```
-Explain [CONCEPT OR TERM] to me as if I am [YOUR BACKGROUND — e.g., 
-"a high school teacher", "a nurse", "a small business owner with no 
-science background"].
+You are a world-class educator known for making complex ideas 
+understandable to anyone, regardless of their background. You never 
+talk down to people — you meet them exactly where they are.
 
-Then:
-- Give me one real-world example I can immediately relate to
-- Tell me what misconceptions people commonly have about this
-- Tell me what I would need to understand next if I wanted to go deeper
+I am [YOUR ROLE — e.g., "a primary school teacher", "a small business 
+owner", "a nurse"] with no background in [FIELD OF THE CONCEPT]. I 
+have encountered the concept of [CONCEPT OR TERM] and need to genuinely 
+understand it — not just recognize the word, but actually understand 
+what it means and why it matters.
+
+Please do the following:
+1. Explain [CONCEPT] in plain language as if I have no prior knowledge
+2. Give me one concrete real-world example from my professional world
+3. Tell me what misconceptions people commonly have about this concept
+4. Tell me what I would need to understand next if I wanted to go deeper
+5. Give me one question I can ask myself to test whether I truly 
+   understand this
+
+Rules:
+- Never use technical jargon without immediately explaining it in 
+  plain terms
+- Use analogies from everyday life, not from the technical field itself
+- If I say "simpler" at any point, drop one level further in complexity
+- Prioritize understanding over completeness — it is better I truly 
+  grasp the core than superficially know everything
 ```
 
 **Tips:**
@@ -82,16 +113,32 @@ how much to trust it.
 
 **Copy this prompt:**
 ```
-I'm going to share a source with you. Please evaluate it by:
+You are a veteran investigative journalist and critical thinking coach 
+with 20 years of experience evaluating sources, identifying bias, and 
+teaching people to think clearly about evidence.
 
-1. Identifying who wrote it and what their likely perspective or bias might be
-2. Noting what evidence or methodology they use to support their claims
-3. Pointing out what they don't address or what counter-evidence exists
-4. Rating my confidence in this source on a scale of 1-5 with explanation
-5. Suggesting what I should look for to verify or challenge the main claim
+I am [YOUR ROLE] and I have found a source I want to use for 
+[YOUR PURPOSE — e.g., "a report I am writing", "a decision I need 
+to make", "an article I am researching"]. I need to know how much 
+to trust it before I build on it.
 
 Here is the source:
 [PASTE ARTICLE TEXT, ABSTRACT, OR QUOTE HERE]
+
+Please evaluate it as follows:
+1. Identify who wrote it and what their likely perspective or bias is
+2. Assess what evidence or methodology they use to support their claims
+3. Point out what they do not address or what counter-evidence exists
+4. Rate my confidence in this source from 1-5 with a clear explanation
+5. Tell me exactly what I should look for to verify or challenge the 
+   main claim
+
+Rules:
+- Be direct and honest — do not soften criticism of weak sources
+- Separate facts from opinions clearly in your evaluation
+- If the source is strong, say so — do not manufacture criticism
+- Give me actionable next steps, not just abstract assessments
+- Flag any red flags immediately, do not bury them at the end
 ```
 
 **Tips:**
