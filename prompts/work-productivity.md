@@ -20,17 +20,37 @@ or you're writing something sensitive and want to get the tone right.
 
 **Copy this prompt:**
 ```
-I need to write an email for the following situation:
+You are a senior communications professional with expertise in 
+professional writing across industries. You understand that the right 
+email can preserve relationships, resolve conflicts, and move things 
+forward — and the wrong one can do serious damage.
 
-Recipient: [WHO YOU ARE WRITING TO — their role and your relationship]
-Purpose: [WHAT YOU NEED TO ACHIEVE — e.g., "follow up on an overdue 
-payment", "decline a meeting request politely", "ask for a deadline extension"]
-Key points to include: [LIST THE MAIN THINGS YOU NEED TO SAY]
-Tone: [e.g., "professional and firm", "warm and apologetic", "direct but polite"]
-Any context I should know: [ANYTHING RELEVANT — history, sensitivity, stakes]
+I am [YOUR ROLE] and I need to write an email to [RECIPIENT — their 
+role and your relationship with them]. The purpose of this email is 
+to [WHAT YOU NEED TO ACHIEVE — be specific]. The stakes are [LOW / 
+MEDIUM / HIGH] because [BRIEFLY EXPLAIN WHY].
 
-Please write a complete email with subject line. Keep it concise and 
-appropriate for a professional context.
+Key points I need to communicate:
+[LIST YOUR MAIN POINTS]
+
+Additional context:
+[ANY RELEVANT HISTORY, SENSITIVITY, OR BACKGROUND]
+
+Please do the following:
+1. Write a complete email with subject line
+2. Make the opening clear about the purpose immediately
+3. Present the key points in a logical, easy-to-follow order
+4. Close with a clear next step or call to action
+
+Rules:
+- Tone must be [YOUR TONE — e.g., "professional and firm", "warm 
+  and apologetic", "direct but respectful"]
+- Keep it as concise as possible while covering everything necessary
+- Do not use filler phrases like "I hope this email finds you well"
+- If the situation is sensitive, prioritize the relationship alongside 
+  the objective
+- After the email, give me one sentence explaining the strategic 
+  choice you made with the tone
 ```
 
 **Tips:**
@@ -54,19 +74,34 @@ was discussed and decided.
 
 **Copy this prompt:**
 ```
-I'm going to paste my notes from a meeting. Please turn them into 
-a clean meeting summary that includes:
+You are a chief of staff and expert communicator who has synthesized 
+thousands of meetings into clear, actionable summaries. You understand 
+that a good meeting summary is not a transcript — it is a decision 
+record and accountability tool.
 
-1. Meeting purpose (1 sentence)
-2. Key decisions made (bullet points)
-3. Action items (who is doing what, by when — based on what's in the notes)
-4. Open questions or issues that weren't resolved
-5. Next steps and follow-up required
+I am [YOUR ROLE] and I have just finished a meeting about [MEETING 
+TOPIC]. The attendees were [LIST ROLES OR NAMES]. The purpose of the 
+meeting was to [WHAT THE MEETING WAS TRYING TO ACHIEVE]. I need a 
+summary I can send to all attendees within the hour.
 
-Format it so I can paste it directly into an email to send to attendees.
+Here are my raw notes:
+[PASTE YOUR NOTES HERE — messy is fine]
 
-Here are my notes:
-[PASTE YOUR RAW MEETING NOTES HERE]
+Please produce the following:
+1. Meeting purpose — one sentence
+2. Key decisions made — bullet points, specific and unambiguous
+3. Action items — who is doing what, by when, based only on what 
+   is in the notes
+4. Open questions — issues raised but not resolved
+5. Next steps — what happens after this meeting and when
+
+Rules:
+- Do not invent action items or decisions that are not in my notes
+- If ownership of an action item is unclear, flag it rather than guess
+- Keep the total summary under 250 words unless the meeting requires more
+- Format it so I can paste it directly into an email without editing
+- If my notes are too sparse to produce a reliable summary, tell me 
+  what is missing
 ```
 
 **Tips:**
@@ -89,21 +124,37 @@ manageable steps.
 
 **Copy this prompt:**
 ```
-I need to plan the following project:
+You are a seasoned project manager with experience delivering complex 
+projects across multiple industries. You are known for creating plans 
+that are ambitious but realistic — and for identifying the problems 
+that kill projects before they happen.
 
-Project goal: [WHAT YOU ARE TRYING TO ACHIEVE]
-Deadline: [WHEN IT NEEDS TO BE DONE]
-Resources available: [YOUR TIME PER WEEK, ANY BUDGET, TEAM OR SOLO]
-Main constraints or challenges: [ANYTHING THAT COMPLICATES THIS]
+I am [YOUR ROLE] and I need to plan the following project from start 
+to finish. I have [EXPERIENCE LEVEL — e.g., "never managed a project 
+like this before", "some experience but not at this scale"] with this 
+type of work.
 
-Please create:
-1. A breakdown of the main phases of this project
+Project goal: [WHAT YOU ARE TRYING TO ACHIEVE — be specific]
+Deadline: [WHEN IT MUST BE DONE]
+Available time: [HOW MANY HOURS PER WEEK YOU CAN DEDICATE]
+Budget: [YOUR BUDGET OR "none / minimal"]
+Team: [SOLO OR LIST WHO IS INVOLVED]
+Main constraints: [ANYTHING THAT COMPLICATES THIS]
+
+Please produce the following:
+1. The main phases of this project in sequence
 2. Specific tasks within each phase
-3. A suggested sequence and rough timeline
-4. The 3 most important things to get right for this to succeed
-5. The biggest risks and how to mitigate them
+3. A realistic timeline given my constraints
+4. The 3 most critical things to get right for this to succeed
+5. The top risks and one specific mitigation action for each
 
-Be realistic about what's achievable given my constraints.
+Rules:
+- Be realistic, not optimistic — an honest hard plan beats a 
+  comfortable fantasy
+- Flag immediately if my deadline is unrealistic given my constraints
+- Prioritize ruthlessly — tell me what I can cut if I run out of time
+- Give me the first 5 actions I should take this week to build momentum
+- Base everything on what I have told you, not on ideal conditions
 ```
 
 **Tips:**
