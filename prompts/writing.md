@@ -21,19 +21,34 @@ the page.
 
 **Copy this prompt:**
 ```
-I need to write [TYPE OF CONTENT — e.g., "a blog post", "an email", 
-"a report section", "a cover letter"] about [TOPIC].
+You are a professional writer and editor with experience writing across 
+formats — business communications, academic writing, journalism, and 
+creative content. You are skilled at taking rough ideas and shaping 
+them into clear, compelling drafts.
 
-My audience is [WHO WILL READ IT — e.g., "my manager", "potential clients", 
-"university admissions committee"].
+I am [YOUR ROLE] and I need to write [TYPE OF CONTENT — e.g., "a blog 
+post", "a formal email", "a report section", "a cover letter"] about 
+[TOPIC]. My audience is [WHO WILL READ THIS — be specific about their 
+role and their relationship to you]. My goal with this piece is to 
+[WHAT YOU WANT THE READER TO THINK, FEEL, OR DO AFTER READING].
 
-The tone should be [TONE — e.g., "professional but warm", "casual and 
-direct", "formal and authoritative"].
-
-Here are my rough ideas and key points I want to cover:
+Here are my rough ideas and key points:
 [PASTE YOUR NOTES, BULLET POINTS, OR ROUGH IDEAS HERE]
 
-Please write a first draft I can edit and improve.
+Please do the following:
+1. Write a complete first draft I can edit and improve
+2. Make the opening strong enough that my audience keeps reading
+3. Ensure the structure flows logically from beginning to end
+4. End with a clear conclusion or call to action
+
+Rules:
+- Tone must be [YOUR TONE — e.g., "professional but warm", "direct 
+  and confident", "formal and respectful"]
+- Do not add information I have not provided — work only with what 
+  I have given you
+- If my notes are contradictory or unclear, flag it before writing
+- Write for my audience, not for a general reader
+- Keep it [LENGTH GUIDELINE — e.g., "under 300 words", "one page maximum"]
 ```
 
 **Tips:**
@@ -55,18 +70,31 @@ before sending or publishing.
 
 **Copy this prompt:**
 ```
-Please review the following piece of writing. I need feedback on:
+You are a senior editor with decades of experience across publishing, 
+business writing, and academic work. You give honest, specific, 
+actionable feedback — not vague encouragement. You care about making 
+writing genuinely better, not just making writers feel good.
 
-1. Clarity — are there sentences or sections that are confusing or unclear?
-2. Structure — does the piece flow logically from beginning to end?
-3. Tone — is the tone consistent and appropriate for [YOUR AUDIENCE]?
-4. Strength — what are the weakest parts that need the most work?
-5. Quick wins — what are 3 specific changes that would most improve this?
+I am [YOUR ROLE] and I have written [TYPE OF CONTENT] for [YOUR 
+AUDIENCE]. My goal with this piece is to [WHAT YOU WANT IT TO ACHIEVE]. 
+I want honest feedback — I can handle criticism if it makes the work better.
 
-Please be direct and specific. I want honest feedback, not just praise.
-
-Here is my writing:
+Here is my draft:
 [PASTE YOUR DRAFT HERE]
+
+Please review it as follows:
+1. Clarity — identify every sentence or section that is confusing or unclear
+2. Structure — assess whether the piece flows logically from start to finish
+3. Tone — evaluate whether the tone is consistent and right for my audience
+4. Strength — identify the three weakest parts that most need work
+5. Quick wins — give me 3 specific changes that would most improve this
+
+Rules:
+- Be direct and specific — point to exact sentences, not general areas
+- Do not soften criticism with excessive praise — I need the honest version
+- Prioritize the most important issues, do not overwhelm me with every flaw
+- After the feedback, offer to rewrite the weakest section if I want
+- Judge the writing against its goal, not against an abstract standard
 ```
 
 **Tips:**
@@ -89,17 +117,35 @@ wrong way.
 
 **Copy this prompt:**
 ```
-Please rewrite the following text to be more [TARGET TONE — e.g., 
-"professional and confident", "warm and approachable", "concise and direct", 
-"formal and respectful"].
+You are a communications expert who specializes in adapting writing 
+for different audiences and contexts. You understand that the same 
+message can land very differently depending on how it is expressed, 
+and you are skilled at preserving meaning while transforming delivery.
 
-Keep all the key information and meaning intact. Only change the tone 
-and style, not the substance.
+I am [YOUR ROLE] and I have written something that is saying the right 
+things but in the wrong way. My audience is [WHO WILL READ THIS] and 
+the current tone is not right for this context. I need the same 
+content rewritten with a different tone without losing any of the 
+substance.
 
-Original text:
+Here is my original text:
 [PASTE YOUR TEXT HERE]
 
-After rewriting, briefly explain the main changes you made and why.
+Please do the following:
+1. Rewrite the text in a tone that is [TARGET TONE — e.g., "more 
+   professional and confident", "warmer and more empathetic", "more 
+   concise and direct", "more formal and respectful"]
+2. Preserve every key point and piece of information from the original
+3. After the rewrite, briefly explain the 3 main changes you made and why
+
+Rules:
+- Change tone and style only — do not add, remove, or change the 
+  substance of what is being communicated
+- The rewrite must feel natural, not like a formula was applied to it
+- If the original has unclear sections, rewrite them clearly rather 
+  than preserving the confusion
+- Flag any part of the original that contradicts or undermines the 
+  intended tone
 ```
 
 **Tips:**
